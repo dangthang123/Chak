@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+  font-family: "Rubik", sans-serif ;
+  font-weight: normal;
+  font-style: normal;
+  color: #646a7c ;
+  font-size: 15px ;
+  overflow-x: hidden ;
+  line-height: 1 ;
+}
+
+#root {
+	max-width: 100%;
+	padding: 0;
+	text-align: start;
+}
+
+/* button */
+@layer components  {
+  .button-v1,
+  .button-v2 {
+    @apply px-4 text-[14px] inline-block font-semibold border-none leading-[50px] font-poppins text-[#fff] bg-main-color cursor-pointer;
+  }
+  .button-v2 {
+    @apply rounded-[13px];
+  }
+}
+
+
+/* css reset */
