@@ -9,11 +9,11 @@ const index = () => {
         <div className="list-none">
             <Breadcrumb />
             <div className="max-w-[1200px] ml-auto mr-auto relative">
-                <Row className={'w-full mx-0 my-0'}>
-                    <Col className={'w-1/3'}>
+                <Row className={'w-full !mx-0 my-0 lg:flex-row md:flex-col'}>
+                    <Col className={'lg:w-1/3 md:w-full'}>
                         <ContactFromLeft />
                     </Col>
-                    <Col className={'w-2/3'}>
+                    <Col className={'lg:w-2/3 md:w-full'}>
                         <ContactFromRight />
                     </Col>
                 </Row>

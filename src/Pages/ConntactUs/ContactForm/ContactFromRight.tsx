@@ -7,13 +7,13 @@ const ContactFromRight = () => {
                 <form className='contact-form' method="post">
                     <div className="form-wapper">
                         <Row className={''}>
-                            <Col className={'w-1/2'}>
+                            <Col className={'sm:w-1/2 w-full'}>
                                 <div className="form-group w-full relative">
                                     <input className="w-full h-[70px] mb-8 px-5" type='text' placeholder="Your name" />
                                     <i className="fa-regular fa-user absolute text-[#ff4545] top-5 right-5 text-[14px]"></i>
                                 </div>
                             </Col>
-                            <Col className={'w-1/2'}>
+                            <Col className={'sm:w-1/2 w-full'}>
                                 <div className="form-group w-full relative">
                                     <input className="w-full h-[70px] mb-8 px-5" type='email' placeholder="Your name" />
                                     <i className="fa-regular fa-envelope absolute text-[#ff4545] top-5 right-5 text-[14px]"></i>
@@ -34,7 +34,7 @@ const ContactFromRight = () => {
                             <Col className={'w-full'}>
                                 <div className="form-group w-full relative">
                                     <input className="bg-[#ff4545] text-[14px] py-0 px-4 inline-block font-semibold text-white uppercase
-                                    leading-[50px] cursor-pointer w-36" type='text' value='Send Message' />
+                                    leading-[50px] cursor-pointer w-36" type='text' defaultValue='Send Message' />
                                 </div>
                             </Col>
                         </Row>

@@ -33,7 +33,9 @@ module.exports = {
       },
       fontSize: {
         '14px': '14px',
-        '25px': '25px'
+        '25px': '25px',
+        '60px': '60px',
+        '32px':'32px',
       },
       maxWidth: {
         '1200': '1200px'

@@ -1,7 +1,7 @@
 import React from "react";
 const ContactFromLeft = () => {
     return (
-        <div className="w-full relative flex">
+        <div className="w-full relative">
             <div className="p-2.5">
                 <div className="contact-info-list px-0 py-12">
                     <div className=" mb-7 relative pl-20 ">
